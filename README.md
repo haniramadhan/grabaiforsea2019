@@ -30,6 +30,6 @@ Work summary:
 - Description of real-time safe/unsafe driving detection use case
 - Final thoughts
 
-Full description of the codes: [Hani Ramadhan - AI for SEA - Safety.ipynb]
+Full description of the codes: [Hani Ramadhan - AI for SEA - Safety.ipynb](Hani Ramadhan - AI for SEA - Safety.ipynb)
 
 Only code: [./....py]
