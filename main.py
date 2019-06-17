@@ -43,7 +43,7 @@ train_data, label = CleanAndPreprocess(features,label)
 
 #XGBoost Evaluation using Full Feature
 acc,auc,rtime = ev.KfoldEvaluation(train_data,label['label'],"XGBoost",10)
-print("XGBoost: accuracy: "+str(acc)+" AUC: "+str(auc)+
+print("XGBoost K-Fold: accuracy: "+str(acc)+" AUC: "+str(auc)+
 	" Running time (ms): " +str(rtime))
 
 #training the model, we use the XGBoost
@@ -83,3 +83,6 @@ predicted_label.to_csv("output.csv",header=True,index=False)
 
 # print("Test Accuracy: " + accuracy_score(test_label, 1 * (predicted_label['Unsafe'] >0.5) ))
 # print("Test AUC: " +  roc_auc_score(test_label, predicted_label['Unsafe']))
+
+
+print("Okay, it's done! Enjoy the result!")
