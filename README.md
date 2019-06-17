@@ -30,12 +30,15 @@ Work summary:
 - Description of real-time safe/unsafe driving detection use case
 - Final thoughts
 
-Full description of the codes and the stories: [./Safety.ipynb](./Safety.ipynb)
+Full description of the codes and the stories: [Safety.ipynb](./Safety.ipynb)
 
-Only code: [./main.py](./main.py)
+Only code: [main.py](./main.py)
+**Note: put the data files in the parent directory.**
 
 Ran on local. Machine specifications:
 - Windows 10 64-bit
 - i7-4790 CPU @ 3.60 GHz
 - 16 GB RAM
 - Python 3.6.8
+
+
