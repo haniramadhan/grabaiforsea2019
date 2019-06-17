@@ -32,4 +32,4 @@ Work summary:
 
 Full description of the codes: [Notebook](./Hani Ramadhan - AI for SEA - Safety.ipynb)
 
-Only code: [./....py]
+Only code: [./main.py]
